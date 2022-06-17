@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Challenge" representedClassName="Challenge" syncable="YES">
+        <attribute name="largestNumOfContinueAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeOfFastestCorrectAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeOfLargestContinueAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfCorrectAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfQuestion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Classic" representedClassName="Classic" syncable="YES">
+        <attribute name="largestNumOfContinueAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="numOfClearedQuestion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeOfClearedQuestion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfCorrectAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfQuestion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Practice" representedClassName="Practice" syncable="YES">
+        <attribute name="largestNumOfContinueAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfCorrectAns" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalNumOfQuestion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserSetting" representedClassName="UserSetting" syncable="YES">
+        <attribute name="currentStyle" optional="YES" attributeType="String"/>
+        <attribute name="volumeOfBGM" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="volumeOfSE" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Practice" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Classic" positionX="-213.33984375" positionY="84.93359375" width="128" height="118"/>
+        <element name="Challenge" positionX="148.34765625" positionY="132.98828125" width="128" height="104"/>
+        <element name="UserSetting" positionX="-56.08203125" positionY="204.97265625" width="128" height="74"/>
+    </elements>
+</model>
